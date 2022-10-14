@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="newsappapifullstackapp">
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.NewsAppApiFullStackApp">
+
+
+
+    <activity android:name="com.example.newsappapifullstackapp.view.search.SearchActivity"
+        android:exported="false"/>
+
+    <activity
+        android:name="com.example.newsappapifullstackapp.firebase.EditProfileActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.firebase.LoginActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.firebase.RegistrationActivity"
+        android:exported="false" />
+
+
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.WebViewActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.DetailsActivity"
+        android:exported="false" />
+
+
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.SplashActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+
+
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.TechnologyActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.SportsActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.ScienceActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.EntertainmentActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.BusinessActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.HealthActivity"
+        android:exported="false" />
+
+
+    <activity
+        android:name="com.example.newsappapifullstackapp.view.MainActivity"
+        android:exported="false">
+
+    </activity>
+
+
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+</application>
+
+</manifest>
+
