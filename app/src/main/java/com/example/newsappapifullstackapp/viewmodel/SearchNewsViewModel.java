@@ -14,7 +14,7 @@ public class SearchNewsViewModel   extends AndroidViewModel {
     private SearchNewsRepository searchNewsRepository;
     private LiveData<NewsResponse> NewsResponseViewModelLiveData;
 
-    String api="2c50d67d16014237bced210c85c280fc";
+    String api="";  //api key
 
 
     public  SearchNewsViewModel(@NonNull Application application){

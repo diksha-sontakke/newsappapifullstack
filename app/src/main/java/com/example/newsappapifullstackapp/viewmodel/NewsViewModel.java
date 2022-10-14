@@ -11,7 +11,7 @@ public class NewsViewModel extends ViewModel {
 
     private MutableLiveData<NewsResponse> mutableLiveData;
     private NewsRepository newsRepository;
-    String api="2c50d67d16014237bced210c85c280fc";
+    String api=""; //add your aoi key
 
     public void init(){
         if (mutableLiveData != null){
